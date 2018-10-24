@@ -12,11 +12,15 @@ zuul - intelligent routing
 
 make a call from one sevice to another
 
+
+spring cloud config for elastic search config
+
 read gradle tutorial
 
 read all in detail
 
 
+actutaor
 
 
 
