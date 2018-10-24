@@ -5,14 +5,16 @@ hystrix - circuit breaker
 
 feign - dynamic rest client
 
-ribbon - client side load balancing
+ribbon - client side load balancing - how will it happen
 
 zuul - intelligent routing
 
 
 make a call from one sevice to another
 
+read gradle tutorial
 
+read all in detail
 
 
 

@@ -38,14 +38,17 @@ dependencies {
     implementation("com.fasterxml.jackson.core:jackson-databind")
 
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-netflix-eureka-client', version: '2.0.1.RELEASE'
-
-//    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-hystrix', version: '1.4.6.RELEASE'
-//    compile("com.netflix.hystrix:hystrix-javanica:1.4.+")
-//    compile("com.netflix.hystrix:hystrix-metrics-event-stream:1.3.16")
-
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-netflix-hystrix', version: '1.4.6.RELEASE'
 
+//    compile group: 'org.elasticsearch', name: 'elasticsearch', version: '5.6.0'
+//    compile group: 'org.elasticsearch.client', name: 'elasticsearch-rest-high-level-client', version: '5.6.0'
+//    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.8.2'
+//    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.8.2'
+//
+//    compile group: 'org.elasticsearch.client', name: 'elasticsearch-rest-client', version: '5.6.0'
+//    compile group: 'org.elasticsearch.client', name: 'elasticsearch-rest-client-sniffer', version: '5.6.0'
 
     testImplementation("junit:junit")
-	testImplementation('org.springframework.boot:spring-boot-starter-test')
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
+
 }
